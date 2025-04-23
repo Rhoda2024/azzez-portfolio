@@ -53,9 +53,9 @@ const HealingKeyFeatures = () => {
   ];
 
   return (
-    <div className="max-w-[1500px] m-auto px-[2rem]">
+    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem]">
       <div>
-        <p className="font-bold font-Plus text-[40px] text-[rgba(34,2,45,1)] pb-[10px] ">
+        <p className="font-bold font-Plus text-[24px] lg:text-[40px] text-[rgba(34,2,45,1)] pb-[10px] ">
           Key features
         </p>
       </div>
@@ -64,10 +64,10 @@ const HealingKeyFeatures = () => {
         {features.map((feature, index) => (
           <div key={index}>
             <div className="flex flex-col gap-[10px]">
-              <p className="text-[rgba(0,0,0,1)] font-Plus text-[32px] font-bold ">
+              <p className="text-[rgba(0,0,0,1)] font-Plus text-[18px] lg:text-[32px] font-bold ">
                 {feature.header}
               </p>
-              <p className="font-lato font-normal text-[30px] ">
+              <p className="font-lato font-normal text-[16px] lg:text-[30px] ">
                 {feature.subhead}
               </p>
               <div>

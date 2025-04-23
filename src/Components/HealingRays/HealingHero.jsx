@@ -5,7 +5,7 @@ import icon2 from "../../assets/Vector-2.png";
 
 const HealingHero = () => {
   return (
-    <div className="max-w-[1500px] m-auto px-[2rem]">
+    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem]">
       {/* hroimg */}
       <div>
         <img src={img} alt="" />
@@ -152,7 +152,7 @@ const HealingHero = () => {
           phase was conducted:
         </p>
         <div className=" flex flex-col gap-[10px] ">
-          <div className="flex  gap-[3px]">
+          <div className="flex  gap-[5px]">
             <p className="text-[rgba(34,2,45,1)] font-bold font-lato text-[18px] lg:text-[24px]">
               User Personas:
             </p>
@@ -162,7 +162,7 @@ const HealingHero = () => {
             </p>
           </div>
 
-          <div className="flex gap-[3px]">
+          <div className="flex gap-[5px]">
             <p className="text-[rgba(34,2,45,1)] font-bold font-lato text-[18px] lg:text-[24px]">
               Competitor Analysis:
             </p>
@@ -172,7 +172,7 @@ const HealingHero = () => {
             </p>
           </div>
 
-          <div className="flex gap-[3px] ">
+          <div className="flex gap-[5px] ">
             <p className="text-[rgba(34,2,45,1)] font-bold font-lato text-[18px] lg:text-[24px]">
               User Feedback:
             </p>

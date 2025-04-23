@@ -44,12 +44,12 @@ const HealingChallenges = () => {
   ];
 
   return (
-    <div className="max-w-[1500px] m-auto px-[2rem]">
+    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem]">
       <div className="py-[7rem]">
         {/* =============chalenges and solutions================ */}
-        <div className="flex items-center justify-center gap-[40px]">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-[40px]">
           {/* challenges */}
-          <div className=" bg-[rgba(210,185,218,1)] w-[700px] p-[24px] rounded-[8px] ">
+          <div className=" bg-[rgba(210,185,218,1)] max-w-[700px] p-[24px] rounded-[8px] ">
             <div className="flex flex-col gap-[20px]">
               <div>
                 <p className="font-lato font-bold text-[24px] text-[rgba(211,25,25,1)]  ">
@@ -64,7 +64,7 @@ const HealingChallenges = () => {
                     </div>
                   </div>
                   <div>
-                    <p className=" font-Plus font-normal text-[20px] text-[rgba(95,6,124,1)] ">
+                    <p className=" font-Plus font-normal text-[15px] lg:text-[20px] text-[rgba(95,6,124,1)] ">
                       {challenge.text}
                     </p>
                   </div>
@@ -75,7 +75,7 @@ const HealingChallenges = () => {
           {/* challenges */}
 
           {/* solutions */}
-          <div className="bg-[rgba(210,185,218,1)] w-[700px] p-[24px] rounded-[8px] ">
+          <div className="bg-[rgba(210,185,218,1)] max-w-[700px] p-[24px] rounded-[8px] ">
             <div className="flex flex-col gap-[20px]">
               <div>
                 <p className="font-lato font-bold text-[24px] text-[rgba(95,6,124,1)]  ">
@@ -90,7 +90,7 @@ const HealingChallenges = () => {
                     </div>
                   </div>
                   <div>
-                    <p className=" font-Plus font-normal text-[20px] text-[rgba(95,6,124,1)] ">
+                    <p className=" font-Plus font-normal text-[15px] lg:text-[20px] text-[rgba(95,6,124,1)] ">
                       {solution.text}
                     </p>
                   </div>
@@ -103,11 +103,11 @@ const HealingChallenges = () => {
         {/* =============chalenges and solutions================ */}
 
         {/* conclusion & takeaway */}
-        <div className="py-[6rem] flex flex-col gap-[30px]">
-          <p className="font-Plus font-bold text-[40px] text-[rgba(34,2,45,1)] ">
+        <div className="py-[6rem] flex flex-col gap-[20px]">
+          <p className="font-Plus font-bold text-[24px] sm:text-[30px]  lg:text-[40px] text-[rgba(34,2,45,1)] ">
             Conclusion
           </p>
-          <p className="text-[rgba(95,6,124,1)] text-[30px] font-lato font-normal ">
+          <p className="text-[rgba(95,6,124,1)] text-[16px] sm:text-[24px]  lg:text-[30px] font-lato font-normal ">
             The Healingrays website exemplifies how thoughtful design can
             transform a vision into a tangible, impactful digital experience. By
             combining intuitive navigation, engaging resources, and a seamless
@@ -116,11 +116,11 @@ const HealingChallenges = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-[30px]">
-          <p className="font-Plus font-bold text-[40px] text-[rgba(34,2,45,1)] ">
+        <div className="flex flex-col gap-[20px]">
+          <p className="font-Plus font-bold text-[24px] sm:text-[30px] lg:text-[40px] text-[rgba(34,2,45,1)] ">
             Takeaway
           </p>
-          <p className="text-[rgba(95,6,124,1)] text-[30px] font-lato font-normal ">
+          <p className="text-[rgba(95,6,124,1)] text-[18px] sm:text-[24px] lg:text-[30px] font-lato font-normal ">
             Healingrays’ website showcases how collaboration, user-focused
             design, and a commitment to quality can transform ideas into
             impactful solutions. By working closely with the team, prioritizing

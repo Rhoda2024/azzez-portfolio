@@ -39,7 +39,7 @@ const HearlingDesignProcess = () => {
   ];
 
   return (
-    <div className="max-w-[1500px] m-auto py-[6rem] px-[2rem]">
+    <div className="max-w-[1500px] m-auto py-[6rem] px-[1rem] lg:px-[2rem]">
       {/* design porcess */}
       <div>
         <div>
@@ -128,30 +128,30 @@ const HearlingDesignProcess = () => {
 
       {/* DESIGN   */}
       <div className="py-[6rem]">
-        <div className="flex items-center gap-[50px]">
+        <div className="flex flex-col lg:flex-row items-center gap-[50px]">
           {/* img */}
           <div>
-            <div className="">
-              <img src={image} alt="" className="max-w-[630px]" />
+            <div className="max-w-[630px]">
+              <img src={image} alt="" className="" />
             </div>
           </div>
           {/* img */}
 
           <div className="flex flex-col gap-[30px] items-center">
             {/* texts1 */}
-            <div className="bg-[rgba(217,217,217,1)] w-[800px] rouded-[8px] px-[25px] py-[24px]">
+            <div className="bg-[rgba(217,217,217,1)] max-w-[815px] md:w-[815px] rouded-[8px] px-[25px] py-[24px]">
               <div className="flex flex-col  ">
                 {/* header text */}
                 <div className=" border-b border-[rgba(255,255,255,1)] ">
-                  <p className="text-[rgba(34,2,45,1)] font-Plus font-bold text-[20px] lg:text-[32px] ">
+                  <p className="text-[rgba(34,2,45,1)] font-Plus font-bold text-[20px] sm:text-[32px] ">
                     Mr. Ayodele Timothy
                   </p>
                 </div>
                 {/* header text */}
 
                 {/* sub heads */}
-                <div className="flex">
-                  <div className=" font-Plus font-normal text-[24px] text-[rgba(34,2,45,1)] ">
+                <div className="flex ">
+                  <div className=" font-Plus font-normal text-[17px] sm:text-[24px] text-[rgba(34,2,45,1)] ">
                     <p>C.E.O / Founder</p>
                     <p>SHEDA HOUSE | FIRESWITCH | RENI</p>
                   </div>
@@ -161,26 +161,26 @@ const HearlingDesignProcess = () => {
             </div>
             {/* texts1 */}
 
-            <div className="grid grid-cols-2 items-center gap-[25px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-[25px]">
               {points.map((point, index) => (
                 <div key={index}>
-                  <div className="bg-[rgba(217,217,217,1)] w-[400px] h-[320px] px-[32px] py-[24px] rounded-[8px] ">
+                  <div className="bg-[rgba(217,217,217,1)] max-w-[400px] lg:w-[400px] md:h-[320px] px-[32px] py-[24px] rounded-[8px] ">
                     <div className=" flex flex-col justify-center ">
                       <div className="pb-[14px]">
-                        <p className=" w-fit text-[32px] font-Plus font-bold border-b border-[rgba(255,255,255,1)]">
+                        <p className=" w-fit text-[20px] sm:text-[32px] font-Plus font-bold border-b border-[rgba(255,255,255,1)]">
                           {point.header}
                         </p>
                       </div>
-                      <p className="text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
+                      <p className=" text-[17px] sm:text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
                         {point.point1}
                       </p>
-                      <p className="text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)] ">
+                      <p className="text-[17px] sm:text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)] ">
                         {point.point2}
                       </p>
-                      <p className="text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
+                      <p className="text-[17px] sm:text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
                         {point.point3}
                       </p>
-                      <p className="text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
+                      <p className="text-[17px] sm:text-[24px] font-Plus font-normal text-[rgba(95,6,124,1)]">
                         {point.point4}
                       </p>
                     </div>
