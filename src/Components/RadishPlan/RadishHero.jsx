@@ -21,7 +21,7 @@ const RadishHero = () => {
         </div>
 
         <div>
-          <div className=" max-w-[350px] lg:max-w-[400px]">
+          <div className=" max-w-[250px] lg:max-w-[400px]">
             <img src={img} alt="" />
           </div>
         </div>
