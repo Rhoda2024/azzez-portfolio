@@ -4,7 +4,7 @@ import logo from "../../assets/radish-logo.png";
 
 const RadishHero = () => {
   return (
-    <div className=" w-full m-auto text-white h-[70vh] bg-gradient-to-br from-[#870AAF] to-[#390449] p-[1rem] lg:p-[5rem] pt-[6rem] sm:pt-[8rem]">
+    <div className=" w-full m-auto text-white h-[70vh] bg-gradient-to-br from-[#870AAF] to-[#390449] p-[1rem] lg:p-[5rem] pt-[4rem] sm:pt-[8rem]">
       <div className="flex flex-col gap-[1.5rem] sm:gap-[0rem] sm:flex-row items-center justify-between">
         <div className=" flex flex-col gap-[40px] lg:gap-[80px] ">
           <div>
