@@ -25,7 +25,7 @@ const RadishDesignProcess = () => {
             {/* 1 */}
             <div className="flex flex-col lg:flex-row items-center gap-[6px]">
               <div>
-                <div className="w-[200px] h-[200px] border-[2px] border-[rgba(95,6,124,1)] rounded-full flex flex-col items-center justify-center gap-[10px]">
+                <div className="w-[200px] h-[190px] shadow-xl shadow-[rgba(0,0,0,0.25)] border-[2px] border-[rgba(95,6,124,1)] rounded-[15px] flex flex-col items-center justify-center gap-[10px]">
                   <img src={img} alt="" className="w-[50px] h-[50px]" />
                   <p className="text-[rgba(95,6,124,1)] font-Plus text-[20px] lg:text-[32px] font-bold ">
                     Research
@@ -45,7 +45,7 @@ const RadishDesignProcess = () => {
             <div className="flex flex-col lg:flex-row items-center gap-[6px]">
               <div>
                 {" "}
-                <div className="w-[200px] h-[200px] border-[2px] border-[rgba(95,6,124,1)] rounded-full flex flex-col items-center justify-center gap-[10px]">
+                <div className="w-[200px] h-[190px] shadow-xl shadow-[rgba(0,0,0,0.25)] border-[2px] border-[rgba(95,6,124,1)] rounded-[15px] flex flex-col items-center justify-center gap-[10px]">
                   <img src={img2} alt="" className="w-[50px] h-[50px]" />
                   <p className="text-[rgba(95,6,124,1)] font-Plus text-[20px] lg:text-[32px] font-bold ">
                     Ideate
@@ -64,7 +64,7 @@ const RadishDesignProcess = () => {
             {/* 3*/}
             <div className="flex flex-col lg:flex-row items-center gap-[6px]">
               <div>
-                <div className="w-[200px] h-[200px] border-[2px] border-[rgba(95,6,124,1)] rounded-full flex flex-col items-center justify-center gap-[10px]">
+                <div className="w-[200px] h-[190px] shadow-xl shadow-[rgba(0,0,0,0.25)] border-[2px] border-[rgba(95,6,124,1)] rounded-[15px] flex flex-col items-center justify-center gap-[10px]">
                   <img src={img3} alt="" className="w-[50px] h-[50px]" />
                   <p className="text-[rgba(95,6,124,1)] font-Plus text-[20px] lg:text-[32px] font-bold ">
                     Define
@@ -83,7 +83,7 @@ const RadishDesignProcess = () => {
             {/* 4*/}
             <div className="">
               <div>
-                <div className="w-[200px] h-[200px] border-[2px] border-[rgba(95,6,124,1)] rounded-full flex flex-col items-center justify-center gap-[10px]">
+                <div className="w-[200px] h-[190px] shadow-xl shadow-[rgba(0,0,0,0.25)] border-[2px] border-[rgba(95,6,124,1)] rounded-[15px] flex flex-col items-center justify-center gap-[10px]">
                   <img src={img4} alt="" className="w-[50px] h-[50px]" />
                   <p className="text-[rgba(95,6,124,1)] font-Plus text-[20px] lg:text-[32px] font-bold ">
                     Design

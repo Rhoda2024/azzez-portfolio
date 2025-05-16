@@ -68,7 +68,7 @@ const RadishProjectOverview = () => {
           <p className="text-[rgba(0,0,0,1)] font-Plus font-medium text-[18px] sm:text-[20px] lg:text-[24px]">
             The Challenges before designing
           </p>
-          <div className="text-[18px] sm:text-[24px] lg:text-[32px] font-lato font-normal">
+          <div className="text-[18px] flex flex-col gap-[20px] sm:text-[24px] lg:text-[32px] font-lato font-normal">
             {/*  */}
             <div className="flex gap-[10px]">
               <p>1.</p>
