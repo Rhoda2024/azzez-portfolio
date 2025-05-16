@@ -104,10 +104,10 @@ const HealingChallenges = () => {
 
         {/* conclusion & takeaway */}
         <div className="py-[6rem] flex flex-col gap-[20px]">
-          <p className="font-Plus font-bold text-[24px] sm:text-[30px]  lg:text-[40px] text-[rgba(34,2,45,1)] ">
+          <p className="font-Plus font-bold text-[24px] sm:text-[30px] lg:text-[40px] text-[rgba(34,2,45,1)] ">
             Conclusion
           </p>
-          <p className="text-[rgba(95,6,124,1)] text-[16px] sm:text-[24px]  lg:text-[30px] font-lato font-normal ">
+          <p className="text-[rgba(95,6,124,1)] text-[16px] sm:text-[24px] lg:text-[30px] font-lato font-normal ">
             The Healingrays website exemplifies how thoughtful design can
             transform a vision into a tangible, impactful digital experience. By
             combining intuitive navigation, engaging resources, and a seamless

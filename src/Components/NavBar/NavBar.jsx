@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import navimg from "../../assets/nav-bar.png";
 
 const NavBar = () => {
+  const [view, setView] = useState(false);
+
+  const toggleView = () => {
+    setView(!view);
+  };
+
   const navs = [
     { link: "HOME", path: "/" },
     { link: "ABOUT ME", path: "" },
@@ -20,7 +26,7 @@ const NavBar = () => {
         <div className="items-center gap-[32px] font-poppins hidden lg:flex ">
           {navs.map((nav, index) => (
             <ul key={index}>
-              <Link to={nav.path}>
+              <Link to={nav.path} className="cursor-pointer hover:underline">
                 <li className=" font-medium text-[20px] ">{nav.link}</li>
               </Link>
             </ul>
@@ -32,6 +38,32 @@ const NavBar = () => {
             HIRE ME
           </button>
         </div>
+
+        <div
+          className="flex flex-col gap-[5px] gm:gap-[10px] lg:hidden "
+          onClick={toggleView}
+        >
+          <div className="border w-[2rem] h-[2px]  border-black"></div>
+          <div className="border w-[2rem] h-[2px]  border-black"></div>
+          <div className="border w-[2rem] h-[2px]  border-black"></div>
+        </div>
+
+        {view && (
+          <div className="bg-[rgb(95,6,124)] h-[70vh] w-full absolute z-[3] left-0 top-[7rem]">
+            <div className=" text-[white] items-center justify-center flex flex-col gap-[32px] font-poppins pt-[5rem]">
+              {navs.map((nav, index) => (
+                <ul key={index}>
+                  <Link
+                    to={nav.path}
+                    className="cursor-pointer hover:underline"
+                  >
+                    <li className=" font-medium text-[20px] ">{nav.link}</li>
+                  </Link>
+                </ul>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

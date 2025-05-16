@@ -6,18 +6,18 @@ import { GoDotFill } from "react-icons/go";
 
 const RadishDesignPhase = () => {
   return (
-    <div className="max-w-[1500px] m-auto px-[2rem]">
+    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem]">
       {/* ======first deign phase======== */}
       <div>
         <div className=" flex flex-col gap-[4rem]">
           <div>
-            <p className="font-Plus font-bold text-[40px] text-[rgba(34,2,45,1)]">
+            <p className="font-Plus font-bold text-[24px] sm:text-[30px] lg:text-[40px] text-[rgba(34,2,45,1)]">
               Design Phase
             </p>
-            <p className="font-lato font-normal text-[32px] text-[rgba(34,2,45,1)] py-[8px]">
+            <p className="font-lato font-normal text-[18px] sm:text-[24px] lg:text-[32px] text-[rgba(34,2,45,1)] py-[8px]">
               Wireframe
             </p>
-            <p className="font-Plus font-normal text-[24px] text-[rgba(34,2,45,1)]">
+            <p className="font-Plus font-normal text-[17px] sm:text-[20px] lg:text-[24px] text-[rgba(34,2,45,1)]">
               Low Fidelity Wireframe Of The Design
             </p>
           </div>
@@ -37,10 +37,10 @@ const RadishDesignPhase = () => {
       <div className="py-[6rem]">
         <div className="flex flex-col gap-[4rem]">
           <div>
-            <p className="font-Plus font-bold text-[40px] text-[rgba(34,2,45,1)]">
+            <p className="font-Plus font-bold text-[24px] sm:text-[30px] lg:text-[40px] text-[rgba(34,2,45,1)]">
               Design Phase
             </p>
-            <p className="font-lato font-normal text-[32px] text-[rgba(34,2,45,1)]">
+            <p className="font-lato font-normal text-[18px] sm:text-[24px] lg:text-[32px] text-[rgba(34,2,45,1)]">
               The Final Design Of The Page
             </p>
           </div>
@@ -56,12 +56,12 @@ const RadishDesignPhase = () => {
       {/* ============takeaway============== */}
       <div className="pb-[7rem]">
         <div className="pb-[2rem]">
-          <p className="font-Plus font-bold text-[40px] text-[rgba(34,2,45,1)]">
+          <p className="font-Plus font-bold text-[24px] sm:text-[30px] lg:text-[40px] text-[rgba(34,2,45,1)]">
             Takeaway
           </p>
         </div>
 
-        <div className="text-[rgba(95,6,124,1)] font-lato font-bold text-[28px] flex flex-col gap-[30px]">
+        <div className="text-[rgba(95,6,124,1)] font-lato font-bold text-[17px] sm:text-[20px] lg:text-[28px] flex flex-col gap-[30px]">
           <div>
             <p>Takeaway</p>
             <p>
@@ -79,7 +79,7 @@ const RadishDesignPhase = () => {
               {" "}
               <p>1.</p>
             </div>
-            <div>
+            <div className="flex flex-col gap-[0.5rem]">
               <p>For Employers:</p>
               <div className="flex gap-[10px] items-center">
                 <GoDotFill />
@@ -105,7 +105,7 @@ const RadishDesignPhase = () => {
               {" "}
               <p>2.</p>
             </div>
-            <div>
+            <div className="flex flex-col gap-[0.5rem]">
               <p>For Employees:</p>
               <div className="flex gap-[10px] items-center">
                 <GoDotFill />
@@ -130,7 +130,7 @@ const RadishDesignPhase = () => {
               {" "}
               <p>3.</p>
             </div>
-            <div>
+            <div className="flex flex-col gap-[0.5rem]">
               <p>For the Industry:</p>
               <div className="flex gap-[10px] items-center">
                 <GoDotFill />
