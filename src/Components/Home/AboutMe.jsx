@@ -6,7 +6,7 @@ const AboutMe = () => {
       className="bg-[rgba(210,185,218,0.25)] py-[132px] px-[1rem] "
       id="aboutMe"
     >
-      <div className="max-w-[1250px] bg-white m-auto rounded-[15px] p-[30px] flex flex-col items-center justify-center gap-[64px]">
+      <div className="max-w-[1300px] bg-white m-auto rounded-[15px] p-[30px] flex flex-col items-center justify-center gap-[64px]">
         <div>
           <p className="text-[rgba(34,2,45,1)] font-semibold sm:font-bold text-center text-[24px] sm:text-[40px] font-Plus  ">
             A Little Bit About Me

@@ -6,7 +6,7 @@ import { GoDotFill } from "react-icons/go";
 
 const RadishDesignPhase = () => {
   return (
-    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem]">
+    <div className="max-w-[1600px] m-auto px-[1rem] lg:px-[2rem]">
       {/* ======first deign phase======== */}
       <div>
         <div className=" flex flex-col gap-[4rem]">

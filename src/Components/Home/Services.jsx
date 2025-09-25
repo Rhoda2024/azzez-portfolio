@@ -33,7 +33,7 @@ const Services = () => {
   ];
 
   return (
-    <div className=" max-w-[1500px] m-auto  py-[7rem] px-[2rem] ">
+    <div className=" max-w-[1600px] m-auto  py-[7rem] px-[2rem]" id="services">
       <div className="flex flex-col items-center justify-center">
         <div>
           <p className="font-Plus text-[30px] sm:text-[40px] font-bold pb-[2rem] ">

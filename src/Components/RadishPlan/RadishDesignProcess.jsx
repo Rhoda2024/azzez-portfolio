@@ -1,6 +1,5 @@
 import React from "react";
-import img1 from "../../assets/img.png";
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
+import img1 from "../../assets/UserPersona-Radish.png";
 import img from "../../assets/Research Icon.png";
 import img2 from "../../assets/Ideate icon.png";
 import img3 from "../../assets/def-icon.png";
@@ -11,7 +10,7 @@ import { HiOutlineArrowLongDown } from "react-icons/hi2";
 
 const RadishDesignProcess = () => {
   return (
-    <div className="max-w-[1500px] m-auto px-[1rem] lg:px-[2rem] pb-[4rem]">
+    <div className="max-w-[1600px] m-auto px-[1rem] lg:px-[2rem] pb-[4rem]">
       <div>
         {/* ==========DESIGN PROCESSS============= */}
         <div className="pb-[7rem]">
@@ -98,67 +97,12 @@ const RadishDesignProcess = () => {
 
         {/* =================== User Persona============== */}
         <div>
-          <p className="font-Plus text-[30px] sm:text-[35px] lg:text-[40px] font-bold pb-[5rem]">
+          <p className="font-Plus text-[30px] sm:text-[35px] lg:text-[40px] font-bold pb-[2rem]">
             User Persona
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row">
-          <div>
-            <img src={img1} alt="" />
-          </div>
-          {/* ================= */}
-          <div className="bg-[rgba(210,185,218,0.5)] max-w-[850px] px-[1rem] sm:px-[3rem] py-[3rem] flex flex-col justify-center gap-[3rem]">
-            <div>
-              <FaQuoteLeft size={35} />
-              <p className="font-Plus font-bold text-[18px] sm:text-[24px] lg:text-[32px] text-[rgba(27,27,27,1)]">
-                Focus on designing intuitive, user-centered experiences that
-                engage and inspire
-              </p>
-              <FaQuoteRight size={35} className=" " />
-            </div>
-
-            <div>
-              <p className="font-Plus font-bold text-[18px] sm:text-[24px] lg:text-[32px] text-[rgba(27,27,27,1)]">
-                About
-              </p>
-              <p className="font-Plus font-bold text-[16px] sm:text-[20px] lg:text-[24px] text-[rgba(27,27,27,1)]">
-                A passionate and dedicated product designer who values
-                continuous learning.
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-[3rem]">
-              <div className="text-[rgba(27,27,27,1)] flex flex-col gap-[20px]">
-                <p className="font-lato text-[20px] sm:text-[24px] font-bold">
-                  Goals{" "}
-                </p>
-                <p className="font-Plus font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Monitor financial progress without complicated tools.
-                </p>
-                <p className="font-poppins font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Save consistently for future needs.
-                </p>
-                <p className="font-Plus font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Offer meaningful benefits to attract and retain top talent.
-                </p>
-              </div>
-
-              <div className="text-[rgba(27,27,27,1)] flex flex-col gap-[20px]">
-                <p className="font-lato text-[20px] sm:text-[24px] font-bold">
-                  Frustrations
-                </p>
-                <p className="font-Plus font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Overwhelmed by financial planning.{" "}
-                </p>
-                <p className="font-Plus font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Needs a simple, motivating interface to save money.
-                </p>
-                <p className="font-Plus font-normal text-[18px] sm:text-[20px] lg:text-[24px]">
-                  • Existing savings options are too complex and time-consuming.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <img src={img1} alt="" />
         </div>
         {/* =================== User Persona============== */}
       </div>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const CaseStudies = () => {
   return (
-    <div className="max-w-[1500px] m-auto px-[2rem] ">
+    <div className="max-w-[1600px] m-auto px-[2rem]" id="projects">
       <div className="flex flex-col items-center">
         <div>
           <p className=" font-Plus text-[20px] sm:text-[40px] font-bold ">
@@ -72,7 +72,7 @@ const CaseStudies = () => {
               <img src={img4} alt="" />
             </div>
 
-            <div className=" gap-[24px] flex flex-col lg:w-[700px]">
+            <div className=" gap-[24px] flex flex-col lg:max-w-[700px]">
               <div>
                 <p className=" font-Plus font-bold text-[20px] sm:text-[32px] ">
                   EASEFARMS- A Market Platform
@@ -103,12 +103,12 @@ const CaseStudies = () => {
           </div>
 
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between pt-[5rem] gap-[2rem] ">
-            <div className=" gap-[24px] flex flex-col  sm:max-w-[550px]">
+            <div className=" gap-[24px] flex flex-col lg:max-w-[700px]">
               <div>
-                <p className=" font-Plus font-bold text-[20px] lg:text-[32px] ">
+                <p className=" font-Plus font-bold text-[20px] sm:text-[32px] ">
                   RADISHPLAN- A fintech landing page
                 </p>
-                <p className=" font-poppins text-[20px] lg:text-[24px] font-semibold text-[rgba(34,2,45,0.45)] ">
+                <p className=" font-poppins text-[20px] sm:text-[24px] font-semibold text-[rgba(34,2,45,0.45)] ">
                   Collaborated Project with (Product Manager & WebDeveloper)
                 </p>
               </div>
@@ -138,17 +138,17 @@ const CaseStudies = () => {
           </div>
 
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between pt-[5rem] gap-[2rem]  ">
-            <div className=" gap-[24px] flex flex-col lg:max-w-[550px]">
+            <div className=" gap-[24px] flex flex-col lg:max-w-[700px]">
               <div>
-                <p className=" font-Plus font-bold text-[20px] lg:text-[32px] ">
+                <p className=" font-Plus font-bold text-[20px] sm:text-[32px] ">
                   HEALINGRAYS- An NGO Website
                 </p>
 
-                <p className=" font-poppins text-[20px] lg:text-[24px] font-semibold text-[rgba(34,2,45,0.45)] ">
+                <p className=" font-poppins text-[20px] sm:text-[24px] font-semibold text-[rgba(34,2,45,0.45)] ">
                   Collaborated Project with (Product Manager & WebDeveloper)
                 </p>
               </div>
-              <p className="font-normal text-[16px] lg:text-[24px] font-Plus text-[rgba(0,0,0,1)] ">
+              <p className="font-normal text-[16px] sm:text-[24px] font-Plus text-[rgba(0,0,0,1)] ">
                 Healingrays sought to revolutionize how individuals access
                 personalized nutrition services and resources.
               </p>

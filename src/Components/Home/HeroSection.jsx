@@ -3,7 +3,7 @@ import image from "../../assets/az.png";
 import { IoIosArrowForward } from "react-icons/io";
 const HeroSection = () => {
   return (
-    <div className="max-w-[1550px] m-auto sm:px-[2rem]">
+    <div className="max-w-[1600px] m-auto sm:px-[2rem]">
       <div className="bg-[rgba(0,0,0,0.1)] px-[1rem] md:px-[2rem] lg:px-[5rem] py-[3rem]">
         <div className="flex flex-col gap-[2rem] lg:gap-[0] md:flex-row items-center justify-between">
           {/* text */}
